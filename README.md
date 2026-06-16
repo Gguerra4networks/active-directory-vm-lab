@@ -1,5 +1,10 @@
-<img width="625" height="390" alt="##STEP 1 - PROVISIONING THE VM" src="https://github.com/user-attachments/assets/fd99f177-9785-438e-9203-744c45740356" />
 ####🎬 Watch Me Build This Lab!
+
+
+
+
+<img width="625" height="390" alt="##STEP 1 - PROVISIONING THE VM" src="https://github.com/user-attachments/assets/fd99f177-9785-438e-9203-744c45740356" />
+
 
 
 https://www.loom.com/share/eef9c22fc42243b48a53e82772c788db
