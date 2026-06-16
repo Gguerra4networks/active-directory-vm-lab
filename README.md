@@ -1,13 +1,13 @@
-####🎬 Watch Me Build This Lab!
 
-
-
-
-<img width="625" height="390" alt="##STEP 1 - PROVISIONING THE VM" src="https://github.com/user-attachments/assets/fd99f177-9785-438e-9203-744c45740356" />
-
+🎬 Watch Me Build This Lab!
 
 
 https://www.loom.com/share/eef9c22fc42243b48a53e82772c788db
+
+
+
+
+<img width="906" height="512" alt="AD_LAB1" src="https://github.com/user-attachments/assets/ebe53baf-53f4-42f0-892b-fa7f3243d1e4" />
 
 
 
@@ -39,6 +39,13 @@ This is the exact environment IT teams manage every day, and the foundational kn
 ## Architecture
 
 ```
+
+
+
+
+
+
+
 ┌─────────────────────────────────────────────────────────────────┐
 │                    Azure VM — Windows Server 2025               │
 │                                                                 │
@@ -67,6 +74,10 @@ This is the exact environment IT teams manage every day, and the foundational kn
 
   Identity layer       Department OUs       Policy enforcement
 ```
+
+
+
+<img width="601" height="365" alt="AZURE VM - WINDOWS SERVER 2025" src="https://github.com/user-attachments/assets/91ef6533-7403-4908-8296-d90046f4d70d" />
 
 ---
 
@@ -99,7 +110,10 @@ This is the exact environment IT teams manage every day, and the foundational kn
 
 **Option A — Azure (Recommended)**
 
-<img width="906" height="512" alt="AD_LAB1" src="https://github.com/user-attachments/assets/ebe53baf-53f4-42f0-892b-fa7f3243d1e4" />
+
+
+
+<img width="625" height="390" alt="##STEP 1 - PROVISIONING THE VM" src="https://github.com/user-attachments/assets/fd99f177-9785-438e-9203-744c45740356" />
 
 
 No local hardware requirements. Runs in Microsoft's data centre; you connect via RDP.
@@ -131,7 +145,7 @@ No local hardware requirements. Runs in Microsoft's data centre; you connect via
 4. Mount the ISO, boot, and select **Windows Server 2025 Datacenter with Desktop Experience**
 
 
-<img width="625" height="390" alt="##STEP 1 - PROVISIONING THE VM" src="https://github.com/user-attachments/assets/ca59b6d7-1ea5-4071-a870-ab9be003f474" />
+
 
 ---
 
