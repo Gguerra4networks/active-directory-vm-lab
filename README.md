@@ -1,3 +1,7 @@
+####🎬 Watch Me Build This Lab!
+
+https://www.loom.com/share/eef9c22fc42243b48a53e82772c788db
+
 [README.md](https://github.com/user-attachments/files/28728955/README.md)
 # active-directory-vm-lab
 A hands-on lab demonstrating the setup and configuration of Active Directory on a Windows Server VM
