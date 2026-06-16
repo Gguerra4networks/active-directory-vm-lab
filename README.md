@@ -1,3 +1,4 @@
+<img width="625" height="390" alt="##STEP 1 - PROVISIONING THE VM" src="https://github.com/user-attachments/assets/fd99f177-9785-438e-9203-744c45740356" />
 ####🎬 Watch Me Build This Lab!
 
 
@@ -93,6 +94,9 @@ This is the exact environment IT teams manage every day, and the foundational kn
 
 **Option A — Azure (Recommended)**
 
+<img width="906" height="512" alt="AD_LAB1" src="https://github.com/user-attachments/assets/ebe53baf-53f4-42f0-892b-fa7f3243d1e4" />
+
+
 No local hardware requirements. Runs in Microsoft's data centre; you connect via RDP.
 
 1. Create a free Azure account at [azure.microsoft.com/free](https://azure.microsoft.com/free)
@@ -121,6 +125,9 @@ No local hardware requirements. Runs in Microsoft's data centre; you connect via
 3. Create a VM: 4GB RAM, 60GB disk, type = Windows Server 2019/2022
 4. Mount the ISO, boot, and select **Windows Server 2025 Datacenter with Desktop Experience**
 
+
+<img width="625" height="390" alt="##STEP 1 - PROVISIONING THE VM" src="https://github.com/user-attachments/assets/ca59b6d7-1ea5-4071-a870-ab9be003f474" />
+
 ---
 
 ### Step 2 — Install Active Directory Domain Services
@@ -133,6 +140,9 @@ RDP into the VM. Open **Server Manager** (launches automatically on login).
 ```powershell
 Install-WindowsFeature -Name AD-Domain-Services -IncludeManagementTools
 ```
+
+
+<img width="857" height="447" alt="POWERSHELL_ISE" src="https://github.com/user-attachments/assets/d86b0fc9-5b08-40c5-ab0a-c3c646a9e47b" />
 
 Install Group Policy Management Console immediately after — you will need it in Step 5:
 ```powershell
@@ -223,6 +233,9 @@ Add-ADGroupMember -Identity "Sales_Users"   -Members "david.smith"
 ### Step 5 — Configure Group Policy
 
 Open **Group Policy Management** from the Tools menu in Server Manager.
+
+<img width="877" height="406" alt="STEP 5 - CONFIGURE GROUP POLICY MANAGER" src="https://github.com/user-attachments/assets/5d5fa95d-816b-468b-80fa-5470b0462675" />
+
 
 1. Expand **Forest: lab.local → Domains → lab.local**
 2. Right-click the **IT OU** → **Create a GPO in this domain and link it here**
